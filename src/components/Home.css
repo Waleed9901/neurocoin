@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+.design1{
+  color: rgb(16, 231, 231)
+}
+
+.x1{
+  font-family: 'Abel', sans-serif;
+  font-size: 40px;
+  padding-top:50px;
+  color: rgb(197, 132, 240);
+  font-size: 70px;
+  text-align: left;
+}
+
+.fancy{
+  margin:0;
+  padding-left: 60px; 
+  height: 450px;
+  width: 800px;
+}
+
+.x2{
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  color:white;
+  font-size: 17px;
+}
+
+.contain{
+  padding-left: 100px;
+}
+  
+.design1{
+  font-family: 'Comfortaa', cursive;
+}
+
+.sample1{
+width:1000px;
+height:500px;
+padding-left:330px;
+}
+
+.first{
+  background-color:#33D4FF;
+  height: 300px;
+  background-color: black;
+  padding-bottom: 30px;
+  margin:-10;
+}
+
+.MainContainer{
+  margin-top: -20px;
+}
+
+.text1{
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+  color:#E8DAEF;
+  font-size: 45px;
+}
+
+.heading{
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+  padding-top:60px;
+  font-size: 45px;
+  color: #F2F3F4;
+}
+ 
+.textpiece{
+  text-align:center;
+}
+
+.textpiece2{ 
+  margin-top: 550px;
+  color: darkgray;
+  font-size: 25px;
+  text-align: center; 
+  height: 500px;
+  margin:0;
+  margin-bottom: 100px;
+  background-image: url('../images/pic4.jpeg');
+  background-size: cover;
+}
+  
+.refpic{
+  height: 170px;
+  width: 170px;
+  margin-bottom: 50px;
+}
+  
+span.firstInfo{
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 300px;
+  padding: 60px;
+  vertical-align: bottom;
+  margin:10px;
+  margin-left: 100px;
+  height: 300px;
+  align-content: center;
+  border-radius: 100px;       
+  background-color: rgba(147, 58, 231, 0.904);
+}
+
+.secondlast{
+  margin-top:-100px; 
+  padding-top: 40px;
+}
+
+.wideCard{
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 1000px;
+  padding: 60px;
+  vertical-align: bottom;
+  margin:25px;
+  border-radius: 100px;
+  margin-top: 100px; 
+  margin-left: 170px;
+  height: 350px;
+  align-content: center;       
+  background-color: black;
+  box-shadow: 4px 4px 150px 0px rgba(181, 253, 253, 0.856);
+}
+
+.ethText{
+  font-size: 22px;
+  color: palegreen;
+  text-align: center; 
+  font-family: 'Nunito', sans-serif;
+}
+
+.eth1{
+  width: 28%;
+  float: left;
+}
+
+.TextContainer{
+  margin:0px;
+  width: 100%;
+  padding-top: 68px;
+}
+
+.pic1, .pic2{
+  width: 80px;
+  height: 80px;
+  margin-left: 30%;
+  margin-bottom: 40px;
+}
+
+.pic3{
+  width: 100px;
+  height: 100px;
+  margin-left: 20%;
+  margin-bottom: 20px;
+}
+
+.rainbowPicture{
+  width: 100%;
+  height:500px;
+}
+
+.gen2{
+  height: 400px;
+}
