@@ -44,7 +44,7 @@ import Catalogue from '../components/Catalogue';
 
                         {/*News*/}
                         <NavItem style={{paddingTop: 10}} eventKey={2} componentClass={Link} to="/News">
-                         <Link to="/News">
+                         <Link to="/News ">
                             News
                          </Link>
                         </NavItem>

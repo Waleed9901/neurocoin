@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.banner{
+    width: 100%;
+    height:100px;
+    background-color: black;
+    margin-top: -20px;
+}
+
+.bannerText{
+    text-align: center;
+    font-size: 70px;
+    color: fuchsia;
+    font-family: 'Pacifico', cursive;
+}
