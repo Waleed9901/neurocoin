@@ -10,7 +10,6 @@ export default class Catalogue extends Component{
                 <div className="banner">
                     <p className="bannerText">Catalogue</p>
                 </div>
-                {/* <h2>Heading2</h2>
                 <h2>Heading2</h2>
                 <h2>Heading2</h2>
                 <h2>Heading2</h2>
@@ -18,8 +17,9 @@ export default class Catalogue extends Component{
                 <h2>Heading2</h2>
                 <h2>Heading2</h2>
                 <h2>Heading2</h2>
-                <h2>Heading2</h2> */}
-                {/* <Footer /> */}
+                <h2>Heading2</h2>
+                <h2>Heading2</h2>
+                <Footer />
             </div>
         );
     }
