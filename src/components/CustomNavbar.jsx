@@ -27,9 +27,9 @@ import Catalogue from '../components/Catalogue';
             <Navbar default collapseOnSelect>
                 <Navbar.Header>
                     <Navbar.Brand>
-                            <Link to="/">
-                                <img src={imgone} className="myicon" />
-                            </Link>
+                        <Link to="/">
+                            <img src={imgone} className="myicon" />
+                        </Link>
                     </Navbar.Brand>
                     <Navbar.Toggle />
                 </Navbar.Header>
@@ -43,9 +43,9 @@ import Catalogue from '../components/Catalogue';
                         </NavItem>
 
                         {/*News*/}
-                        <NavItem style={{paddingTop: 10}} eventKey={2} componentClass={Link} to="/News">
-                         <Link to="/News ">
-                            News
+                        <NavItem style={{paddingTop: 10}} eventKey={2} componentClass={Link} to="/PytorchModel">
+                         <Link to="/PytorchModel">
+                            Pytorch Model
                          </Link>
                         </NavItem>
 

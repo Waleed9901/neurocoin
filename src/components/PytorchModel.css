@@ -1,0 +1,32 @@
+.first{
+    width: 100%;
+    margin-top: -20px;
+    background-color: white;
+    padding-top: 70px;
+}
+
+.subfirst{
+    text-align: center;
+    font-size: 100px;
+    color: cyan;
+    font-family: 'Pacifico', cursive;
+}
+
+.mydiv{
+    margin-left: 300px;
+}
+
+.dropdiv{
+    padding-top: 40px;
+    padding-left: 110px; 
+}
+
+.piece2{
+    color:grey;
+    font-size: 15px;
+}
+
+.sampleText{
+    font-size: 15px;
+    color: aqua;
+}

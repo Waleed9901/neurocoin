@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import Dropzone from 'react-dropzone';
-import './News.css';
+import './PytorchModel.css';
+import Footer from '../components/Footer';
 
-const MaxFileSize = 10048; // file size, Pytorch model of anysize can be specified here
+const MaxFileSize = 10048;  // file size, Pytorch model of anysize can be specified here
 export default class News extends Component{
     constructor(props){
         super(props);
@@ -10,11 +11,6 @@ export default class News extends Component{
             // state data comes here
         }
     }
-    onChange(e){
-        let file = e.target.file;
-        console.warn("file data", file);
-    }
-     
     //Dropzone function handler
     handleOnDrop=(files, rejectedFiles)=>{
         console.log(files);
@@ -23,16 +19,15 @@ export default class News extends Component{
     render(){
         return(
             <div>
-                <div onSubmit={this.onFormSubmit} className="mydiv">
-                    <h1>Ehh!</h1>
-                    {/*pytorch file drag and drop implementation*/}
-                    <input type="file" name="file" onChange={(e)=>this.onChange(e)}/>
+                <div className="first">
+                    <p className="subfirst">Drop Model</p>
                 </div>
                 <div className="dropdiv">
-                    <Dropzone onDrop={this.handleOnDrop} multiple={false} max={MaxFileSize} accept={{/*specify the format you want to dnd*/}}>
+                    <Dropzone onDrop={this.handleOnDrop} max={MaxFileSize}>
                         Drop your files here
                     </Dropzone>
                 </div>
+                <Footer />
             </div>
         )
     }
