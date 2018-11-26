@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Dropzone from 'react-dropzone';
 import './PytorchModel.css';
 import Footer from '../components/Footer';
+import {Button} from 'react-bootstrap';
 
 const MaxFileSize = 10048;  // file size, Pytorch model of anysize can be specified here
 export default class News extends Component{
@@ -27,6 +28,7 @@ export default class News extends Component{
                         Drop your files here
                     </Dropzone>
                 </div>
+                <Button className="ButtonV2 ButtonV2--flat ButtonV2--color-pink">Sample</ Button>
                 <Footer />
             </div>
         )

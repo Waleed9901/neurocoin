@@ -5,6 +5,8 @@ import pic1 from '../images/pic1.png';
 import pic2 from '../images/pic2.png';
 import pic3 from '../images/pic3.png';
 import eth1 from '../images/eth1.png';
+import erc from '../images/erc.jpg';
+
 
 export default class Home extends Component{
     render(){
@@ -49,7 +51,7 @@ export default class Home extends Component{
                      </span>
 
                      {/*Card 4*/}
-                            <span className="wideCard">
+                            <span className="wideCard1">
                             <img src={eth1} className="eth1"/>
                                 <div className="TextContainer">
                                  <p className="ethText">
@@ -59,6 +61,19 @@ export default class Home extends Component{
                                     It does not mandate a standard for token
                                     metadata or restrict adding supplemental
                                     functions.</p>
+                                </div>
+                            </span>
+
+                            <span className="wideCard2">
+                            <div className="section2image"><img src={erc} className="eth2"/></div>
+                            <div className="TextContainer2">
+                                 <p className="ethText2">
+                                Ethereum uses a smart contract system.
+                                Smart contracts are peer-to-peer
+                                contracts,
+                                that run on the Ethereum network,
+                                and can do just about anything
+                                by paying a transaction fee.</p>
                                 </div>
                             </span>
                 </div>
