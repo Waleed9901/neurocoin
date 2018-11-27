@@ -7,18 +7,18 @@ export default class Catalogue extends Component{
     render(){
         return(
             <div>
-                <div className="banner">
-                    <p className="bannerText">Catalogue</p>
+                <h1>heading1</h1>
+                <h1>heading1</h1>
+                <h1>heading1</h1>
+                <h1>heading1</h1>
+                <h1>heading1</h1>
+                <h1>heading1</h1>
+                <div className="box">
+                    <select className="hello">
+                        <option>Customer</option>
+                        <option>Developer/Contributor</option>
+                    </select>
                 </div>
-                <h2>Heading2</h2>
-                <h2>Heading2</h2>
-                <h2>Heading2</h2>
-                <h2>Heading2</h2>
-                <h2>Heading2</h2>
-                <h2>Heading2</h2>
-                <h2>Heading2</h2>
-                <h2>Heading2</h2>
-                <h2>Heading2</h2>
                 <Footer />
             </div>
         );

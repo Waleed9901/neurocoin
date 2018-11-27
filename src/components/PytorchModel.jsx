@@ -28,7 +28,6 @@ export default class News extends Component{
                         Drop your files here
                     </Dropzone>
                 </div>
-                <Button className="ButtonV2 ButtonV2--flat ButtonV2--color-pink">Sample</ Button>
                 <Footer />
             </div>
         )
