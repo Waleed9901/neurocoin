@@ -1,23 +1,38 @@
 import React, {Component} from 'react';
 import './Catalogue.css';
-import {BrowserRouter as Router, Route, NavLink} from 'react-router-dom';
 import Footer from '../components/Footer';
+import dark from '../images/dark.jpg';
+import { Button} from 'react-bootstrap';
 
 export default class Catalogue extends Component{
     render(){
         return(
             <div>
-                <h1>heading1</h1>
-                <h1>heading1</h1>
-                <h1>heading1</h1>
-                <h1>heading1</h1>
-                <h1>heading1</h1>
-                <h1>heading1</h1>
-                <div className="box">
-                    <select className="hello">
-                        <option>Customer</option>
-                        <option>Developer/Contributor</option>
-                    </select>
+                {/* <div className="headingDiv"><h1 className="mainheading">Who are you?</h1></div> */}
+                <div className="entireCon">
+                <span className="firstDiv">
+                    <div className="secondDiv">
+                        <p className="myText">
+                           A Developer?
+                        </p>
+                        <div className="selection">
+                            <Button bsStyle="primary">Select</ Button>
+                        </div>
+                    </div>
+                </span>
+                <span className="firstDiv">
+                    <div className="secondDiv">
+                        <p className="myText">
+                        A Customer?
+                        </p>
+                        <div className="selection">
+                            <Button bsStyle="primary">Select</ Button>
+                        </div>
+                    </div>
+                </span>
+                </div>
+                <div className="below">
+                    <h2>Press the next button to continue</h2>
                 </div>
                 <Footer />
             </div>
