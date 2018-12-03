@@ -29,7 +29,7 @@ font-size: 25px;
 .App__Form {
 width: 50%;
 background-color: rgb(20, 22, 24);
-padding-top: 140px;
+padding-top: 110px;
 }
 
 span.subdivone{
@@ -41,8 +41,8 @@ vertical-align: bottom;
 margin-left: 150px;
 height: 560px;
 align-content: center;
-border-radius: 45px;       
-background-color: rgba(13, 39, 41, 0.904);
+border-radius: 25px;       
+background-color: rgba(7, 23, 24, 0.37);
 }
 
 .maindiv{
@@ -68,7 +68,7 @@ padding: 15px 70px;
 font-size: 1.2em;
 font-weight: 350;
 margin: -100px;
-margin-left: 45px;
+margin-left: 51px;
 }
 
 .FormField {
@@ -81,7 +81,7 @@ text-align: center;
 display: block;
 text-transform: uppercase;
 font-size: .9em;
-color: rgb(108, 214, 214);
+color: white;
 }
 
 .FormField__Input {
