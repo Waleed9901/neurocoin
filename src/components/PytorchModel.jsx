@@ -3,6 +3,7 @@ import Dropzone from 'react-dropzone';
 import './PytorchModel.css';
 import Footer from '../components/Footer';
 import {Button} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 
 const MaxFileSize = 10048;  // file size, Pytorch model of anysize can be specified here
 export default class News extends Component{
@@ -22,6 +23,11 @@ export default class News extends Component{
             <div>
                 <div className="first">
                     <p className="subfirst">Drop Model</p>
+                    <div className="GoBack">
+                    <Link to="/Select">
+                        <Button className="Myselection" bsStyle="primary">Go Back</ Button>
+                    </Link>
+                    </div>
                 </div>
                 <div className="dropdiv">
                     <Dropzone onDrop={this.handleOnDrop} max={MaxFileSize}>

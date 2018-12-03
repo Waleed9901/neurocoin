@@ -5,7 +5,7 @@ import './CustomNavbar.css';
 import NavModal from '../components/NavModal';
 import imgone from '../images/imgone.png';
 import bitcoin from '../images/bitcoin.png';
-import Catalogue from '../components/Catalogue';
+import Role from '../components/Role';
 
  class CustomNavbar extends Component{
     constructor(props, context) {
@@ -42,18 +42,19 @@ import Catalogue from '../components/Catalogue';
                          </Link>
                         </NavItem>
 
-                        {/*News*/}
-                        <NavItem style={{paddingTop: 10}} eventKey={2} componentClass={Link} to="/PytorchModel">
-                         <Link to="/PytorchModel">
-                            Pytorch Model
+                        {/*Catalogue*/}
+                        <NavItem style={{paddingTop: 10}} eventKey={2} componentClass={Link} to="/Role">
+                         <Link to="/Role">
+                           Role
                          </Link>
                         </NavItem>
 
-                        {/*Catalogue*/}
-                        <NavItem style={{paddingTop: 10}} eventKey={3} componentClass={Link} to="/Catalogue">
-                         <Link to="/Catalogue">
-                           Catalogue
-                         </Link>
+                        
+                        {/*Select(Art OR Music)*/}
+                        <NavItem style={{paddingTop: 10}} eventKey={3} componentClass={Link} to="/Select">
+                        <Link to="/Select">
+                            Select
+                        </Link>
                         </NavItem>
                         
                         {/*Register/SignIn*/}
@@ -61,37 +62,6 @@ import Catalogue from '../components/Catalogue';
                         <Link to="/Reg">
                             <Button bsStyle="primary">Registration/Sign-In</ Button>
                         </Link>
-                        </NavItem>
-
-                        <NavItem eventKey={5} componentClass={Link} to="/">
-                        <div className="modal-container">
-                            <Button
-                            bsStyle="primary"
-                            onClick={() => this.setState({ show: true })}
-                            >
-                            Connect Account
-                            </Button>
-                            <Modal
-                            className="mymodal"
-                            show={this.state.show}
-                            onHide={this.handleHide}
-                            container={this}
-                            aria-labelledby="contained-modal-title"
-                            >
-                            <Modal.Body>
-                                <div style={{paddingLeft: 170}}>
-                                    <img style={{ borderRadius:30, width: 200, height: 250}}src={bitcoin}/>
-                                </div>
-                                <div style={{paddingLeft: 130}}>
-                                <Button bsSize="large" style={{margin:20}}>MetaMask</Button>
-                                <Button bsSize="large">PayPal</Button>
-                                </div>
-                            </Modal.Body>
-                            <Modal.Footer>
-                                <Button bsStyle="primary" onClick={this.handleHide}>Close</Button>
-                            </Modal.Footer>
-                            </Modal>
-                        </div>
                         </NavItem>
                     </Nav>
                 </Navbar.Collapse>

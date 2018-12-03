@@ -5,7 +5,8 @@ import About from './components/About';
 import PytorchModel from './components/PytorchModel';
 import Home from './components/Home';
 import Reg from './components/Reg';
-import Catalogue from './components/Catalogue';
+import Role from './components/Role';
+import Select from './components/Select';
 import CustomNavbar from './components/CustomNavbar';
 
 class App extends Component {
@@ -17,8 +18,9 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route path="/About" component={About} />
             <Route path="/PytorchModel" component={PytorchModel} />
-            <Route path="/Catalogue" component={Catalogue}/>
+            <Route path="/Role" component={Role}/>
             <Route path="/Reg" component={Reg} />
+            <Route path="/Select" component={Select} />
         </div>
       </Router>
     );
